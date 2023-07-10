@@ -36,7 +36,7 @@
 /* this is the second section css */
 .section-second-item{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
     font-size: 19px;
 }
 hr{
@@ -81,8 +81,8 @@ hr{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 70px;
-    background-color: rgb(243, 217, 221);
+    margin-top: 50px;
+    background-color: rgb(211, 192, 195);
     font-size: 25px;
     margin-bottom: 20px;
     width: 1922px;
@@ -101,4 +101,17 @@ hr{
 }
 .section-thied-item, .section-third-description{
     text-align: center;
+}
+/* this is forth section css */
+.section-forth-item{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+.section-forth-image-container{
+    text-align: center;
+}
+.section-forth-image-one, .section-forth-image-two,.section-forth-image-three, .section-forth-image-four{
+    padding: 10px;
 }
