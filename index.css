@@ -115,3 +115,56 @@ hr{
 .section-forth-image-one, .section-forth-image-two,.section-forth-image-three, .section-forth-image-four{
     padding: 10px;
 }
+/* this is the fifth section */
+.section-fifth-container{
+    background-image: url("./Flower\ Asset/rectangle 9.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: -100px;
+}
+.section-fifth-item,.section-fifth-input{
+    text-align: center;
+    margin-right: 220px;
+}
+.section-fifth-item{
+    padding-top: 180px;
+}
+.section-fifth-button{
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    background-color: lightsalmon;
+    border-radius: 7px;
+    border: none;
+}
+input{
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+}
+/* this is a footer container */
+.footer-container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 500px;
+    margin-top: 0px;
+
+}
+.footer-titel{
+    padding-top: 200px;
+}
+.afoorer-description{
+    margin: 10px auto;
+    font-size: 30px;
+}
+.footer-end{
+    font-size: 12px;
+    padding-top: 40px;
+}
+.footer-titel{
+    font-size: 70px;
+}
