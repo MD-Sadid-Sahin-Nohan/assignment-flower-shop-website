@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+.section-first-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightpink;
+    height: 600px
+}
+.section-first-item{
+    padding-left: 300px;
+    font-size: 28px;
+    display: fixed;
+}
+.section-first-description{
+    font-size: 18px;
+    color: rgba;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.section-first-image{
+    height: 550px;
+    padding-top: 53px;
+    margin-right: 100px;
+}
+.section-first-button{
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    background-color: lightsalmon;
+    border-radius: 7px;
+    /* color: black; */
+    border: none;
+}
