@@ -39,10 +39,14 @@
     padding-top: 80px;
     font-size: 19px;
 }
+hr{
+    margin: auto 780px;
+    border-bottom: 1px solid black;
+}
 .section-second-image-one, .section-second-image-two,.section-second-image-three{
     height: 300px;
     margin-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 60px;
     border-top-right-radius: 150px;
     border-top-left-radius: 150px;
     width: 200px;
@@ -72,4 +76,29 @@
 .section-second-description{
     margin-top: 15px;
 }
-
+/* this is the third section css */
+.section-third-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    background-color: rgb(243, 217, 221);
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 1922px;
+    height: 480px;
+}
+.section-third-image-one{
+    height: 350px;
+}
+.section-third-button{
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    background-color: lightsalmon;
+    border-radius: 7px;
+    border: none;
+}
+.section-thied-item, .section-third-description{
+    text-align: center;
+}
