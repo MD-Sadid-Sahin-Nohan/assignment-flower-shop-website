@@ -117,7 +117,7 @@ hr{
 }
 /* this is the fifth section */
 .section-fifth-container{
-    background-image: url("./Flower\ Asset/rectangle 9.png");
+    background-image: url("Flower Asset/rectangle 9.png");
     height: 700px;
     background-repeat: no-repeat;
     margin-left: 230px;
