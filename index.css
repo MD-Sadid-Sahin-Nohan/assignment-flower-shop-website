@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    
 }
 /* this is the first section css */
 .section-first-container{
@@ -7,7 +8,9 @@
     justify-content: space-around;
     align-items: center;
     background-color: lightpink;
-    height: 600px
+    height: 600px;
+    width: auto;
+    
 }
 .section-first-item{
     padding-left: 300px;
@@ -39,49 +42,53 @@
     padding-top: 50px;
     font-size: 19px;
 }
+.section-second-description{
+    margin-top: 15px;
+}
 hr{
     margin: auto 780px;
     border-bottom: 1px solid black;
 }
-.section-second-image-one, .section-second-image-two,.section-second-image-three{
-    height: 300px;
-    margin-bottom: 10px;
-    margin-top: 60px;
-    border-top-right-radius: 150px;
+.image-one{
+   background-color: lightpink;
+   border-top-left-radius: 150px;
+   border-top-right-radius: 150px;
+   padding-top: 42px;
+}
+.image-two{
+    background-color: lightblue;
+    border-top-left-radius: 165px;
+    border-top-right-radius: 165px;
+    padding-top: 100px;
+    width: 340px;
+}
+.image-three{
+    background-color: lightseagreen;
     border-top-left-radius: 150px;
-    width: 200px;
-    margin-right: 10px;
-    padding: 50px;
-    display: fixed;
-    border: 0px;
+    border-top-right-radius: 150px;
 }
 .section-second-image{
+    display: flex;
     text-align: center;
-    margin-left: 50px;
-    
+    height: 470px;
+    border: 0px;
+    gap: 25px;
+    margin-left: 450px;
+    margin-top: 70px;
 }
-.section-second-image-one{
-    background-color: lightpink;
-    padding-bottom: 0px;
+h4{
+    text-decoration: underline;
+    padding-top: 10px;
+    font-size: 20px;
 }
-.section-second-image-two{
-    background-color: lightblue;
-    padding-bottom: 2px;
-}
-.section-second-image-three{
-    background-color: lightgreen;
-    padding-bottom: 0px;
-    
-}
-.section-second-description{
-    margin-top: 15px;
-}
+
+
 /* this is the third section css */
 .section-third-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: rgb(211, 192, 195);
     font-size: 25px;
     margin-bottom: 20px;
